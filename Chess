@@ -1,0 +1,17 @@
+# Simple Chess Board Representation
+board = [['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'],
+         ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+         ['.', '.', '.', '.', '.', '.', '.', '.'],
+         ['.', '.', '.', '.', '.', '.', '.', '.'],
+         ['.', '.', '.', '.', '.', '.', '.', '.'],
+         ['.', '.', '.', '.', '.', '.', '.', '.'],
+         ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+         ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r']]
+
+# Function to display the chess board
+def display_board(board):
+    for row in board:
+        print(" ".join(row))
+
+# Display the initial chess board
+display_board(board)
